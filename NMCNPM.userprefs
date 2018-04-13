@@ -1,0 +1,21 @@
+﻿<Properties StartupItem="NMCNPM.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player_Scripts\PlayerControl.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Game_Mechanic_Scripts\RoomBoundsGenerator.cs" Line="1" Column="1" />
+      <File FileName="Assets\InventoryUI\Item.cs" Line="1" Column="1" />
+      <File FileName="Assets\InventoryUI\InventoryUI.cs" Line="1" Column="1" />
+      <File FileName="Assets\InventoryUI\InventorySlot.cs" Line="1" Column="1" />
+      <File FileName="Assets\InventoryUI\Inventory.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\SaveLoad\SaveLoadGame.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player_Scripts\PlayerControl.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Game_Mechanic_Scripts\ButtonControl.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Game_Mechanic_Scripts\DataManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Game_Mechanic_Scripts\TitleScreenControl.cs" Line="108" Column="15" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

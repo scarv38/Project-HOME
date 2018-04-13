@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Player_Sword
+  - Enemy
+  - Bomb
+  - Wall
+  - Block
+  - EnemyBullet
+  - Bound
+  - PlayerBullet
+  - Switch
+  - CanonBall
+  - Object
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - BlockingLayer
+  - Block
+  - Player
+  - Object
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Floor
+    uniqueID: 3131993583
+    locked: 0
+  - name: Items
+    uniqueID: 1861650685
+    locked: 0
+  - name: Units
+    uniqueID: 3393972251
+    locked: 0
+  - name: Ground
+    uniqueID: 3325891421
+    locked: 0
+  - name: Objects
+    uniqueID: 1532455035
+    locked: 0
+  - name: Player
+    uniqueID: 4127080039
+    locked: 0
+  - name: Wall
+    uniqueID: 2463275997
+    locked: 0
+  - name: UI
+    uniqueID: 226016909
+    locked: 0

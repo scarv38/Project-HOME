@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b31fed945c9e04ca70dbcbf9c93af1, type: 3}
+  m_Name: SaveTemp
+  m_EditorClassIdentifier: 
+  g_scene: 1
+  g_HP: 10
+  g_MP: 100
+  g_totalSkills: 1
+  g_equipSkill: 0
+  g_posX: 80.755455
+  g_posY: -76.94245
+  g_keys: 0
+  g_clear: 00000000
+  g_totalPuzzle: 10
+  g_puzzleState: 00000000000000000000

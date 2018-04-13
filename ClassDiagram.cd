@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Inventory">
+    <Position X="23.5" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Inventory.ItemChanged" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\InventoryUI\Inventory.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAgABCAAABBAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\InventoryUI\Inventory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventorySlot">
+    <Position X="23.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAQAAAAAgAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\InventoryUI\InventorySlot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotifBar">
+    <Position X="23.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game_Mechanic_Scripts\NotifBar.cs</FileName>
+      <NewMemberFileName>Assets\InventoryUI\InventoryUI.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Item">
+    <Position X="23.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAACAAAAAAAAEAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\InventoryUI\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SelectItem">
+    <Position X="21.5" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgQAABAAAqAIAACEAgIAIAAEAAAIRAQCQAAABCAAAEA=</HashCode>
+      <FileName>Assets\InventoryUI\SelectItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bomb">
+    <Position X="0.5" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAiAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\Prefabs\PlayerSkill\Bomb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnergyBall">
+    <Position X="2.75" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAiAAAAAgAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Prefabs\PlayerSkill\EnergyBall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boss01Control">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAACqAAAAAAAAAQAAAAAAAEAAAEAAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\Enemy\Boss\Boss01Control.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BossStatus">
+    <Position X="6.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACABAAQAAAAAAAAAAEAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemy\Boss\BossStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CanonBallControl">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAACAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemy\CanonBallControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CanonControl">
+    <Position X="14" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAiAAIAAAAAAQAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemy\CanonControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyStatus">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAiBIIABEAAQAAAAAQFAAIAAAAAQAABAIAAI=</HashCode>
+      <FileName>Assets\Scripts\Enemy\EnemyStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Skeleton_Controller">
+    <Position X="8.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAAEqEAEAAgAACAAgAIAAAAAAgCAQABAABAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemy\Skeleton\Skeleton_Controller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SlimeController">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAQAAEiAAAAgAAAAAAACAAAAABAADAQAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemy\Slime\SlimeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WizardControl">
+    <Position X="10.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAgAAAqAEBABAAAAQEIAAAAAAAAABAQAAAAAQIEA=</HashCode>
+      <FileName>Assets\Scripts\Enemy\WizardControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BossAndChest">
+    <Position X="19.25" Y="8.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAYBAABAAiAIAAAgAIEAAEAAAAAAAAAAAAABAAAAAgA=</HashCode>
+      <FileName>Assets\Scripts\Game_Mechanic_Scripts\BossAndChest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BossRoom01">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAyAAAAAAQAAAACCAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game_Mechanic_Scripts\BossRoom01.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ButtonControl">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEYAAAAAACAIAACACAEMBAAAEMAAAAEAQAABAAIAIgA=</HashCode>
+      <FileName>Assets\Scripts\Game_Mechanic_Scripts\ButtonControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camera_Adjust">
+    <Position X="6.5" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game_Mechanic_Scripts\CameraAndRooms\Camera_Adjust.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraBound">
+    <Position X="4.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgABAAAACACAAAAAAAAAAAAAACAAAABAAAAQAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game_Mechanic_Scripts\CameraAndRooms\CameraBound.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraPos_Editor">
+    <Position X="2.75" Y="12" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game_Mechanic_Scripts\CameraAndRooms\CameraPos_Editor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PixelPerfectScale">
+    <Position X="4.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAABCAAAAAAAAAAAAAAECA=</HashCode>
+      <FileName>Assets\Scripts\Game_Mechanic_Scripts\CameraAndRooms\PixelPerfectScale.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Room_Bounds">
+    <Position X="6.5" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAhAAAACAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Game_Mechanic_Scripts\CameraAndRooms\Room_Bounds.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RoomMove">
+    <Position X="2.75" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAgABAAAAAAAAAAgAgBAAAAEgAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Game_Mechanic_Scripts\CameraAndRooms\RoomMove.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chest">
+    <Position X="17.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACAIAAAAACQAAAAAEAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game_Mechanic_Scripts\Chest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ColoredSwitches">
+    <Position X="15.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiAAAAAAAAABACAAAEAAAAAAAGCABAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game_Mechanic_Scripts\ColoredSwitches.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataManager">
+    <Position X="25.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CwQAABAAACAACAAADAAAIAAAAABBAAADAAAgAAYAAEA=</HashCode>
+      <FileName>Assets\Scripts\Game_Mechanic_Scripts\DataManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Door_And_key">
+    <Position X="12" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACAIAAAAAAAAAAAAAAAAAAAAAAAgAAAAAgA=</HashCode>
+      <FileName>Assets\Scripts\Game_Mechanic_Scripts\Door_And_key.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Key">
+    <Position X="14" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAIAAAAAAAAAAAAAEAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game_Mechanic_Scripts\Key.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Passage">
+    <Position X="14" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAAAAACAIAACAAAAABAACAEAACAABIAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game_Mechanic_Scripts\Passage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PushableBlock">
+    <Position X="12" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAAACAAAAAAAAAAAAAAAAAAAAgAEAAgAAAABAA=</HashCode>
+      <FileName>Assets\Scripts\Game_Mechanic_Scripts\PushableBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Puzzle_BossAppear">
+    <Position X="12" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game_Mechanic_Scripts\Puzzle_BossAppear.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Puzzle_EnemyCount">
+    <Position X="19.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAIAAAAAAiAIAAAIAAAMAAAAAAAAAAEBAAABAAAAAgA=</HashCode>
+      <FileName>Assets\Scripts\Game_Mechanic_Scripts\Puzzle_EnemyCount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Puzzle_PushBlock">
+    <Position X="17.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiAIAAAAAAAAAIAEAEAAAAAAAAAAABAABgA=</HashCode>
+      <FileName>Assets\Scripts\Game_Mechanic_Scripts\Puzzle_PushBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Puzzle_Switch">
+    <Position X="19.25" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAgiAIBgAAAIAAAAAAAAAAAAAAAAAAABAAAgA=</HashCode>
+      <FileName>Assets\Scripts\Game_Mechanic_Scripts\Puzzle_Switch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RBGEditor">
+    <Position X="0.5" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game_Mechanic_Scripts\RBGEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RoomBoundsGenerator">
+    <Position X="0.5" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>CACgAAAAAAIAAAEAAAAAAAAAAAAAABAAAGACAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game_Mechanic_Scripts\RoomBoundsGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SwitchEnergyBall">
+    <Position X="12" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiAAAAAAAAAJAAgAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game_Mechanic_Scripts\SwitchEnergyBall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerControl">
+    <Position X="2.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABgqAAAAAAAAAMAAAAAgAAAQQAAEUBiEAgAgA=</HashCode>
+      <FileName>Assets\Scripts\Player_Scripts\PlayerControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerStatus">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>hQAAAAAAACAAAAAEAAAAACAAQkAAAIAAAQAoBAQIAEA=</HashCode>
+      <FileName>Assets\Scripts\Player_Scripts\PlayerStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game_Data">
+    <Position X="25.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAACAQAAAABAAAAAAAAAAAACAAQAQABAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\SaveLoad\Game_Data.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SaveLoad">
+    <Position X="27" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\SaveLoad\SaveLoadGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataSave">
+    <Position X="27" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAACAQAAAABAAAAAAAAAAAACAAQAQAhAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\SaveLoad\SaveLoadGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SaveNPC">
+    <Position X="27" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAEAAAAAAAAAABAQAAAA=</HashCode>
+      <FileName>Assets\Scripts\SaveLoad\SaveNPC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BreakablePot">
+    <Position X="12" Y="10.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAEAAAAAAAEAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Assets\Scripts\Game_Mechanic_Scripts\BreakablePot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraFix">
+    <Position X="6.5" Y="10.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAEAAAAAAAAgAAAAAAAAACAAAgA=</HashCode>
+      <FileName>Assets\Scripts\Game_Mechanic_Scripts\CameraAndRooms\CameraFix.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Manaball">
+    <Position X="14" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAIAAAIAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game_Mechanic_Scripts\Manaball.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TitleScreenControl">
+    <Position X="21.5" Y="9.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAiAAIAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game_Mechanic_Scripts\TitleScreenControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HPMPSkill">
+    <Position X="21.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQIAAAAAAAAAAAAAAAAAAAAQgAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Assets\Scripts\Game_Mechanic_Scripts\HPMPSkill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="State">
+    <Position X="15.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game_Mechanic_Scripts\ColoredSwitches.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
